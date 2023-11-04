@@ -199,8 +199,7 @@ def game():
             if event.type == pg.QUIT or  (event.type == pg.KEYDOWN and event.key == pg.K_ESCAPE):
                 pg.quit()
                 sys.exit()
-            if event.type == pg.JOYBUTTONDOWN and event.button == 5:
-                pg.quit()
+            
                 sys.exit()
             if event.type == pg.KEYDOWN and (event.key == pg.K_RETURN or event.key == pg.K_KP_ENTER):
                 return
